@@ -1,6 +1,8 @@
 # writingAndReadingObjectsWithNumbersWithInputAndFixedNames2
 writingAndReadingObjectsWithNumbersWithInputAndFixedNames2
 
+![output](https://github.com/bell-kevin/writingAndReadingObjectsWithNumbersWithInputAndFixedNames2/blob/main/hello.PNG)
+
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
