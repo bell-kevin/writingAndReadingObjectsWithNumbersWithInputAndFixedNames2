@@ -1,23 +1,18 @@
 /** ****************************************************************************
- * writingAndReadingObjectsWithNumbers.java
+ * writingAndReadingObjectsWithNumbersWithInput.java
  * Kevin Bell
  *
  * The program writes objects to a file, and reads objects from a file.
  **************************************************************************** */
 package javaapplication9;
+
 import java.io.*;
 import java.util.*;
-/**
- *
- * @author 4800590195
- */
+
 public class JavaApplication9 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-   System.out.println("Objects in Files by Kevin Bell with numbers \n");
+        System.out.println("Objects in Files by K. Bell w/ numbers & input \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
         double score;
         double[] numbers;
@@ -49,10 +44,9 @@ public class JavaApplication9 {
             System.out.println(e.getClass());
             System.out.println(e.getMessage());
         } // end try/catch, and close fileOut automatically
-        
-        
+//******************************************************************************        
+
         System.out.println("");
-        System.out.println("Chapter 16 Objects in Files by Kevin Bell \n");
         String[] names = {"Caleb", "Izumi", "Mary", "Usha"};
         NumberList studentList = new NumberList(names);
         System.out.println("List 1: ");
